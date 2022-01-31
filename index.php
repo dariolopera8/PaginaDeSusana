@@ -166,16 +166,19 @@
         </div>
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
-                <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Ponte en contacto con nosotros</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5">¿Listo para comenzar tu próximo proyecto con nosotros? ¡Envíenos un mensaje y nos pondremos en contacto con usted lo antes posible!</p>
+                        <form action="" method="post">
+                            <h2 class="mt-0">Ponte en contacto con nosotros</h2>
+                            <hr class="divider" />
+                            <p class="text-muted mb-5">¿Listo para comenzar tu próximo proyecto con nosotros? ¡Envíenos un mensaje y nos pondremos en contacto con usted lo antes posible!</p>
+                            <label for="email">Correo electrónico de contacto</label><hr>
+                            <input type="email" name="email" placeholder="Introduzca su email">
+                            <button type="submit" class="btn btn-primary" name="email">Inscribirse</button>
+                        </form>
                     </div>
-                </div> -->
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    
                 </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5"></div>
             </div>
         </section>
 
