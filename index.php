@@ -27,8 +27,11 @@
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                         <li class="nav-item"><a class="nav-link" href="#menuChistes">Chistes</a></li>
-						<li><button type="button" class="btn btn-danger" id="tema" onclick="cambiarTema()"><i class="fa fa-moon-o" aria-hidden="true"></i></button></li>
-                    </ul>
+			<li><button type="button" class="btn btn-danger" id="tema" onclick="cambiarTema()"><i class="fa fa-moon-o" aria-hidden="true"></i></button></li>
+			<li class="nav-item"><a class="nav-link" href="./login/login.php">Login DB</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./login/loginldap.php">Login LDAP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./login/register.php">Registrarse</a></li>
+	            </ul>
                 </div>
             </div>
         </nav>
