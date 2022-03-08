@@ -12,7 +12,8 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -26,7 +27,7 @@
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                         <li class="nav-item"><a class="nav-link" href="#menuChistes">Chistes</a></li>
-			<li><button type="button" class="btn btn-danger" id="tema" onclick="cambiarTema()"><i class="fa fa-moon-o" aria-hidden="true"></i></button></li>
+						<li><button type="button" class="btn btn-danger" id="tema" onclick="cambiarTema()"><i class="fa fa-moon-o" aria-hidden="true"></i></button></li>
                     </ul>
                 </div>
             </div>
@@ -166,6 +167,7 @@
                 </ul>
             </main>
         </div>
+	<?php require_once './vista/vista.php'; ?>
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
